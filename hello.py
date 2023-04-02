@@ -1,9 +1,8 @@
 print("Hello Python !")
 
 sum = 0
-a = 1
-b = 2
-sum = a + b
+for i in range(11):
+    sum += i
 
 print("sum = ", sum)
 
