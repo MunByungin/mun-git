@@ -1,9 +1,15 @@
-print("Hello Python !")
+print("Hello Python ! \n")
 
-sum = 0
-for i in range(11):
-    sum += i
+def sum(n) :
+    max = n
+    total = 0
+    for i in range(max):
+        total += i
+    return total
 
-print("sum = ", sum)
+num = 10
+ret = 0
+if __name__ == "__main__" :
+   ret = sum (num)
 
-
+print("sum = ", ret)
