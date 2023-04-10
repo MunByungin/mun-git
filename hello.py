@@ -11,5 +11,6 @@ num = 10
 ret = 0
 if __name__ == "__main__" :
    ret = sum (num)
+   print("sum = ", ret)
 
-print("sum = ", ret)
+# The end of program.
